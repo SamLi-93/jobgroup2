@@ -1,0 +1,147 @@
+
+*{font-size: 12px;margin: 0px;padding: 0px;font-family:"Microsoft YaHei",微软雅黑,"Microsoft JhengHei",华文细黑,STHeiti,MingLiu}
+a{text-decoration: none;}
+body{margin: 0px;padding: 0px;background-color: #fff;}
+#main{border-right:1px solid #cccccc;border-top:1px solid #cccccc;border-bottom:1px solid #cccccc;}
+.main_content{width: 1410px;}
+.sims_top{height: 30px;width: 100%;background-color: #f7f7f7;}
+.sims_top1{background-image: url(../images/main_1.png);height: 22px;width: 30px;display: block;background-repeat: no-repeat;background-position: 5px 0px;float: left;}
+.sims_top2{display: block;float: left;color: #ff7300;padding-top: 7px;text-indent: 5px;padding-right: 10px}
+.sims_top3{display: block;float: left;color: #666666;width: 130px;padding-top: 7px;}
+.sims_top4{background-image: url(../images/main_2.png);height: 22px;width: 30px;display: block;background-repeat: no-repeat;background-position: 5px -1px;float: left;}
+.sims_top5{display: block;float: left;color: #666666;width: 250px;padding-top: 7px;}
+.sims_tip{height: 132px;width: 100%;background-image: url(../images/main_4.png);background-repeat: repeat-x;}
+.sims_tip1{float: left;margin: 10px 0 0 40px;}
+.sims_tip2{float: right;}
+.sims_left{width: 218px;float: left;border-bottom: 1px solid #dddddd;}
+.sims_left li{display: block;float: left;}
+.sims_list{cursor: pointer; background-image: url(../images/main_8.png);width: 218px;height: 50px;color: #fff;line-height: 52px;text-indent: 50px;font-size: 14px;}
+.sims_list_on{background-image: url(../images/main_7.png);width: 218px;height: 50px;color: #fff;line-height: 52px;text-indent: 50px;font-size: 14px;}
+.left_con{color: #666666;line-height: 50px;text-indent: 50px;background-image: url(../images/main_7.png);width: 218px;height: 46px;font-size: 14px;background-position: 0px -95px;display: block;}
+.left_con_on{color: #666666;font-weight: bold;line-height: 50px;text-indent: 50px;background-image: url(../images/main_7.png);font-size: 14px;width: 218px;height: 46px;background-position: 0px -50px;display: block;}
+.left_cons{margin: 0px;padding: 0px;}
+.sims_right{width: 1192px;float: left;}
+.list_table{border-collapse:collapse;margin:20px 30px 0;width:96% !important;}
+.list_table th{background-color: #dbefff;border: 1px solid #aad7ff;border-spacing: 0px;line-height: 36px;height: 37px;color: #5a8ee0;}
+.list_table td{text-align: center;height: 33px;line-height: 32px;}
+.edit{background-image: url(../images/main_19.png);display: block;height: 23px;float: left;margin-left: 10px;margin-top: 5px;background-repeat: no-repeat;background-color: #fff9de;border: 1px solid #f3d7ae;font-size: 12px;text-align: right;padding-left: 24px;line-height: 22px;padding-right: 3px;color: #e7613d;}
+.delete{background-image: url(../images/main_18.png);display: block;height: 23px;float: left;margin-left: 10px;margin-top: 5px;background-repeat: no-repeat;background-color: #fff9de;border: 1px solid #f3d7ae;font-size: 12px;text-align: right;padding-left: 24px;line-height: 22px;padding-right: 3px;color: #e7613d;}
+.btn2{background-image: url(../images/main_11.png);width: 61px;height: 24px;text-align: center;color: #901800;line-height: 20px;cursor: pointer;float: left;margin:5px 0;}
+.btn3{background-image: url(../images/main_11.png);width: 67px;height: 24px;text-align: center;color: #901800;line-height: 24px;background-position: 67px 0px;cursor: pointer;float: left;}
+.btn4{background-image: url(../images/main_17.png);width: 51px;height: 27px;text-align: center;color: #ffffff;line-height: 26px;cursor: pointer;float: left;}
+.btn5{background-image: url(../images/main_20.png);height: 23px;cursor: pointer;float: left;border-left:1px solid #fec96c;border-right:1px solid #fec96c;border-bottom:1px solid #fec96c;}
+.btn5 span{border-left:1px solid #fee07d;border-right:1px solid #fee07d;display: block;height: 22px;padding-left: 4px;padding-right: 4px;line-height: 24px;color: #901800;}
+.mr20{margin-right: 20px;}
+.ml20{margin-left: 20px;}
+.sims_subject{border-bottom: 1px solid #dddddd;height: 47px;width: 96%;margin: 0px auto;margin-left: 40px;_margin-left: 40px;}
+.sims_subject span{line-height: 48px;color: #999999;}
+.sims_sbumit{width:96%;padding-left: 40px; }
+.sims_notice{height: 30px;line-height: 30px;background-image: url(../images/main_12.png);font-size: 18px;font-weight: bold;color: #565656;text-indent: 30px;background-position: 0px -21px;background-repeat: no-repeat;}
+.sims_notice_list{background-image: url(../images/main_15.png);background-repeat: no-repeat;text-indent: 20px;}
+.notice_table{width: 720px;margin-top: 20px;margin-bottom: 30px;}
+.sims_look{height: 30px;line-height: 30px;background-image: url(../images/main_13.png);font-size: 18px;font-weight: bold;color: #565656;text-indent: 30px;background-position: 0px -38px;background-repeat: no-repeat;}
+.look_div{padding-top: 10px;}
+.look_div li{display: block;float: left;width: 180px;}
+.look_img{width: 140px;margin: 0px auto;display: block;height: 180px;}
+.look_text{display: block;text-indent: 20px;line-height: 22px;color: #666666;}
+.sims_create{padding-left: 20px;width: 95%;padding-top: 10px;}
+.h20{height: 20px;width: 100%;}
+.cbg4{
+	background:url(../img/img_new.png) 0 -410px;
+	width:120px;
+	height:32px;
+	color:#333;
+	cursor: pointer;
+}
+
+.border3{
+	height:31px;
+	border-bottom:solid 1px #AFB5BE;
+}
+.cbg3{
+	background:url(../img/img_new.png) 0 -370px;
+	width:120px;
+	height:32px;
+	color:#069;
+}
+.center{text-align: center;}
+.line30{line-height: 30px;}
+.fleft{float: left;}
+/***页码***/
+.talk_page{font-size: 14px;/*height: 80px;*/padding-top: 10px;height: 40px;padding-right: 35px;}
+.page_over{background-color: #428bca !important;display: block;width: 30px;height: 28px;float: right;line-height: 28px;text-align: center;border: 1px solid #428bca !important;}
+.page_over a{color: white !important;}
+.page_first_over{background-color: #428bca;display: block;width: 30px;height: 28px;float: right;border-radius: 4px 0px 0px 4px;line-height: 28px;text-align: center;border: 1px solid #428bca;}
+.page_first_over a{color: white;}
+.page_first_normal{background-color: white;display: block;width: 30px;height: 28px;float: right;border-radius: 4px 0px 0px 4px;line-height: 28px;text-align: center;border: 1px solid #cccccc;}
+.page_first_normal a{color: #428bca;}
+.page_normal{background-color: white;display: block;min-width: 26px;padding-left:2px;padding-right:2px;height: 28px;float: right;line-height: 28px;text-align: center;border-top: 1px solid #cccccc;border-bottom: 1px solid #cccccc;border-right: 1px solid #cccccc;}
+.page_normal a{color: #428bca;}
+.page_up{background-color: white;display: block;width: 60px;height: 28px;float: right;line-height: 28px;text-align: center;border-top: 1px solid #cccccc;border-bottom: 1px solid #cccccc;border-right: 1px solid #cccccc;}
+.page_up a{color: #428bca;}
+.page_next{background-color: white;display: block;width: 60px;height: 28px;float: right;line-height: 28px;text-align: center;color: #428bca;border-top: 1px solid #cccccc;border-bottom: 1px solid #cccccc;border-right: 1px solid #cccccc;}
+.page_next a{color: #428bca;}
+.page_last{background-color: white;display: block;width: 74px;height: 28px;float: right;border-radius: 0px 4px 4px 0px;line-height: 28px;text-align: center;color: #428bca;border-top: 1px solid #cccccc;border-bottom: 1px solid #cccccc;border-right: 1px solid #cccccc;}
+.page_last a{color: #428bca;}
+.talk_page a{text-decoration: none;}
+
+
+.list_table1{
+	text-align:center;
+	border-collapse: collapse;
+    border: none;
+}
+.list_table1 th{
+	/*background: url(../img/img_new.png) 0 -140px;*/
+	background:#26BBD5;
+	height: 30px;
+	font-size: 14px;
+	font-weight: bold;
+	border: 1px solid #fff;
+	color: #FFF;
+}
+.list_table1 td{
+	height:30px;
+	border: 1px solid #fff;
+}
+.red{color: red;}
+.clear{clear: both;}
+
+
+.sims_default_main{margin-left: 34px;}
+.default_left{float: left;padding-bottom: 20px;}
+.default_right{float: right;padding-right: 20px;width: 290px;}
+.default_left table{border: 1px solid #cccccc;width: 100%;}
+.default_left table th{background:url(../images/default_1.png) repeat-x;height: 36px;text-align: center;color: #5a8ee0;font-weight: normal;}
+.default_left table td{color: #666666;line-height: 24px;padding: 3px;border-top: 1px solid #cccccc;text-align: left;padding-left:20px;cursor: pointer;}
+.default_tip{padding-top: 13px;padding-bottom: 5px;}
+.default_msg{background:url(../images/default_7.png);width: 290px;height: 205px;}
+.default_input{padding-left: 27px;padding-top: 13px;line-height: 24px;}
+.input_name input{width: 129px;height: 24px;}
+.default_submit{background-color: #5a8ee0;color: #fff;width: 51px;text-align: center;float: right;margin-right: 30px;height: 23px;line-height: 20px;margin-top: 5px;font-weight: normal;cursor: pointer;}
+.default_right table{width: 289px;border: 1px solid #cccccc;}
+.default_right tr th{background-color: #2292ed;height: 3px;}
+
+.default_right tr td{background:url(../images/default_8.png) no-repeat;text-indent: 22px;height: 30px;line-height: 25px;background-position: 0px -4px;}
+.main_more{
+	float: right; 
+	height: 37px; 
+	line-height: 37px; 
+	color: #5a8ee0;
+}
+
+.main_more:hover{
+	color: #F00000;
+	cursor: pointer;
+}
+.default_button{background-color: #5a8ee0;color: #fff;width: 51px;text-align: center;height: 23px;line-height: 22px;margin-top: 5px;font-weight: normal;cursor: pointer;}
+
+
+
+
+.disabled{color: #428bca;font-size: 12px;}
+.page_normal2{float:left; background-color: white;display: block;min-width: 26px;padding-left:2px;padding-right:2px;height: 28px;line-height: 28px;text-align: center;border-top: 1px solid #cccccc;border-bottom: 1px solid #cccccc;border-right: 1px solid #cccccc;}
+.page_over2{float: left; background-color: #428bca !important;display: block;width: 30px;height: 28px;line-height: 28px;text-align: center;border: 1px solid #428bca !important;}
+.page_normal2 a {color: #428bca;}
+.current {color: white !important;}
+.page_border{border-left: 1px solid #cccccc;}

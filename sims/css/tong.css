@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+.list_table{
+	border-collapse:collapse;
+}
+.list_table th{
+	background:url(images/qw1.jpg);
+	border:1px solid #A7B7D8;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-size: 12px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #000;
+}
+.list_table td{
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	text-align:center;
+	border: 1px solid #A7B7D8;
+	color:#000;
+	font-size: 12px;
+	line-height: 25px;
+}
+.list_table_print{
+	border-collapse:collapse;
+}
+.list_table_print th{
+	background:url(images/qw1.jpg);
+	border:1px solid #000000;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-size: 12px;
+	line-height: 25px;
+	font-weight: bold;
+	color: #000;
+}
+.list_table_print td{
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	text-align:center;
+	border: 1px solid #000000;
+	color:#000;
+	font-size: 12px;
+	line-height: 25px;
+}

@@ -1,0 +1,183 @@
+
+# ~form 开头的内容用于指定表单属性
+~form:
+  _subject: "学员信息修改"
+  _tips: true
+
+# 指定字段及过滤器等信息
+
+idst:
+  _ui: hidden
+
+enroll_id:
+  _ui: dropdownlist
+  _label: "入学批次"
+  class: login_input1
+  onchange: changeEn_ni(this.value)
+  _req: true
+  _exkey: enroll_name
+
+college_id:
+  _ui: dropdownlist
+  _label: "主考院校"
+  class: login_input1
+  onchange: changeEdu_ni(this.value)
+  _req: true
+  _exkey: college_name
+
+training_id:
+  _ui: dropdownlist
+  _label: "学习中心"
+  class: login_input1
+  onchange: changeLen_ni(this.value)
+  _req: true
+  _exkey: training_name
+
+
+
+discipline_id:
+  _ui: dropdownlist
+  _label: "所属专业"
+  class: login_input1
+  onchange: changeDis_ni(this.value);changeDis_course_ni(this.value);
+  _req: true
+  _exkey: discipline_name
+
+classid:
+  _ui: dropdownlist
+  _label: "所属班级"
+  class: login_input1
+  onchange: changeClass_ni(this.value)
+  _req: true
+  _exkey: class_name
+
+userid:
+  _ui: textbox
+  _label: "登录账号"
+  class: login_input
+  readonly: true
+  _nextline: true
+
+name:
+  _ui: textbox
+  _label: "姓　　名"
+  class: login_input
+  _req: true
+
+pass1:
+  _ui: textbox
+  _label: "新密码"
+  class: login_input
+  _req: true
+  _noex: true
+
+pass:
+  _ui: hidden
+
+gender:
+  _ui: dropdownlist
+  _label: "性　　别"
+  items: ["女","男"]
+  class: login_downlist
+  _exkey: gender_name
+
+age:
+  _ui: textbox
+  _label: "年　　龄"
+  class: login_input
+  _req: true
+
+eid:
+  _ui: textbox
+  _label: "准考证号"
+  class: login_input
+
+stuno:
+  _ui: textbox
+  _label: "学　　号"
+  class: login_input
+
+cid:
+  _ui: textbox
+  _label: "身份证号"
+  class: login_input
+
+mobile:
+  _ui: textbox
+  _label: "移动电话"
+  class: login_input
+  _req: true
+
+phone:
+  _ui: textbox
+  _label: "家庭电话"
+  class: login_input
+nation:
+  _ui: textbox
+  _label: "民　　族"
+  class: login_input
+  _req: true
+
+birth:
+  _ui: textbox
+  _label: "出生年月"
+  class: login_input Wdate
+  onfocus: WdatePicker({dateFmt:'yyyy-MM-dd'})
+  readonly: true
+education:
+  _ui: dropdownlist
+  _label: "文化程度"
+  class: login_input1
+  _req: true
+  _exkey: edu_name
+
+politic_status:
+  _ui: dropdownlist
+  _label: "政治面貌"
+  class: login_input1
+  _exkey: politic_name
+
+email:
+  _ui: textbox
+  _label: "电子邮箱"
+  class: login_input
+
+dazhuan:
+  _ui: textbox
+  _label: "大专专业"
+  readonly: true
+  class: login_input 
+  _req: true
+
+hasdegree:
+  _ui: dropdownlist
+  _label: "大专文凭"
+  items: ["无","有","未知"]
+  class: login_input1
+  _exkey: hasdegree_t
+  onchange: "chdegree()"
+
+postcode:
+  _ui: textbox
+  _label: "邮　　编"
+  class: login_input
+
+corpname:
+  _ui: textbox
+  _label: "单位名称"
+  class: login_input
+
+hometown:
+  _ui: textbox
+  _label: "籍　　贯"
+  class: login_input
+
+address:
+  _ui: textbox
+  _label: "通讯地址"
+  class: login_input
+
+note:
+  _ui: textbox
+  _label: "备　　注"
+  class: login_input

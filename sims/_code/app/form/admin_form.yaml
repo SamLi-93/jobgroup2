@@ -1,0 +1,91 @@
+# ~form 开头的内容用于指定表单属性
+~form:
+  _subject: "添加账号"
+  _tips: true
+
+# 指定字段及过滤器等信息
+
+username:
+  _ui: textbox
+  _label: "用    户      名"
+  _req: true
+  class: login_input
+
+password:
+  _ui: password
+  _label: "密　　码"
+  _req: true
+  class: login_input
+  
+newpassword:
+  _ui: password
+  _label: "确认密码"
+  _req: true
+  class: login_input
+  
+name:
+  _ui: textbox
+  _label: "姓　　名"
+  _req: true
+  class: login_input
+  
+gender:
+  _ui: dropdownlist
+  _label: "性　　别"
+  _req: true
+  items: [女, 男,不限]
+  class: login_input1
+  
+level:
+  _ui: dropdownlist
+  _label: "级　　别"
+  _req: true
+  #items:
+    #0: "请选择"
+    #1: 超级管理员
+   #4: 主主考院校
+    #2: 主考院校
+    #3: 学习中心
+    
+  class: login_input1
+  onchange: ch_classname(this.value)
+
+fpower:
+  _ui: dropdownlist
+  _label: "财务权限"
+  _req: true
+  class: login_input1
+  items:
+    0: "无效"
+    1: "有效"
+
+
+orgid:
+  _ui: dropdownlist
+  _label: "所属机构"
+  _req: true
+  class: login_input1
+  onchange: ch_classname11()
+  _nobra: true
+  
+orgidxx:
+  _ui: dropdownlist
+  _label: "学习中心"
+  _req: true
+  onchange: ch_classinfo()
+  class: login_input1
+
+classinfoid:
+  _ui: dropdownlist
+  _label: "对应班级"
+  _req: true
+  class: login_input1
+
+valid:
+  _ui: dropdownlist
+  _label: "是否有效"
+  items:
+    0: "无效"
+    1: "有效"
+  _req: true
+  class: login_input1

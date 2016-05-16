@@ -1,0 +1,21 @@
+*{margin: 0px;padding: 0px;font-size: 12px;}
+.login_bg{background-image: url(../images/login_1.jpg);width: 100%;height: 900px;background-position: center;}
+.login_form{width: 273px;height: 317px;background-color: #000; filter:alpha(opacity=50);-moz-opacity:0.5;-khtml-opacity: 0.5;opacity: 0.5;position:absolute;left: 70%;top: 50%;z-index: 5;}
+.login_text{width: 273px;height: 317px;z-index: 999;position:absolute;left: 70%;top: 50%;}
+.login_text_1{height: 40px;color: #fff;font-size: 20px;font-weight: bold;border-bottom: 1px solid #ffffff;width: 227px;margin: 0px auto;line-height: 40px; }
+.login_text_2{color: #fff;width: 227px;margin: 0px auto;line-height:30px;height: 40px;}
+.login_input{height: 33px;border: 1px solid #cccccc;background-color: #ffffff;width: 225px;}
+.login_text_3{color: #fff;width: 227px;margin: 0px auto;line-height: 40px;height: 40px;}
+.h30 a{display: block;width: 80px;text-align: right;color: #fff;height: 40px;}
+.login_button{cursor: pointer;display: block;float: right;width: 225px;height: 34px;text-align: right;background-image: url(../images/login_2.png);border: 0px solid;}
+.login_text_3 a{display: block;float: right;width: 225px;height: 34px;text-align: right;background-image: url(../images/login_2.png);}
+.pass_text{display: block;float: left;width: 80px;height: 40px;}
+.pass_find{display: block;float: right;width: 80px;height: 40px;}
+.h30{height: 30px;width: 100%;color: red;text-indent: 30px;line-height: 30px;}
+.login_left{display: block;float: left;padding-left: 5px;font-size: 12px;}
+.login_right{font-size: 12px;color:#ffcd36;/*border-bottom: 1px solid #ffcd36;*/line-height: 11px;display: block;width: 72px;float: left;padding-top: 12px;}
+.pl20{padding-left: 20px;}
+.login_pic{background-image: url(../images/login_3.png);display: block;height: 27px;width: 17px;float: left;background-position: 0px 1px;background-repeat: no-repeat;}
+.err_msg{color:red;width: 227px;margin: 0px auto;line-height: 40px;height: 40px;}
+.err_msg a{display: block;width: 80px;text-align: right;color: #fff;height: 40px;}
+.login_logo{width: 500px;height: 100px;position:absolute;left: 10%;top: 57px;z-index: 5;}

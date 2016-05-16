@@ -1,0 +1,19 @@
+
+# ~form 开头的内容用于指定表单属性
+~form:
+  _subject: "注册新用户"
+
+# 指定字段及过滤器等信息
+
+username:
+  _ui: textbox
+  _filters: ['trim', 'strtolower']
+  _label: "用户名"
+  class: login_input
+  tabindex:	1
+
+password:
+  _ui: password
+  _label: "登录密码"
+  class: login_input
+  tabindex:	2

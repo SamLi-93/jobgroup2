@@ -1,0 +1,56 @@
+
+# ~form 开头的内容用于指定表单属性
+~form:
+  _subject: "报名录入"
+  _tips: true
+
+# 指定字段及过滤器等信息
+college_id:
+  _ui: dropdownlist
+  _label: "学　　校"
+  class: login_input1
+  onchange: changeEdu_ni(this.value)
+  _req: true
+  _exkey: college_name
+
+training_id:
+  _ui: dropdownlist
+  _label: "所属学院"
+  class: login_input1
+  onchange: changeLen_ni(this.value)
+  _req: true
+  _exkey: training_name
+
+discipline_id:
+  _ui: dropdownlist
+  _label: "所属专业"
+  class: login_input1
+  onchange: changeDis_ni(this.value);changeDis_course_ni(this.value);
+  _req: true
+  _exkey: discipline_name
+
+userid:
+  _ui: textbox
+  _label: "学　　号"
+  class: login_input
+  _req: true
+
+name:
+  _ui: textbox
+  _label: "姓　　名"
+  class: login_input
+  _req: true
+
+pass:
+  _ui: textbox
+  _label: "密　　码"
+  class: login_input
+
+note:
+  _ui: textbox
+  _label: "备　　注"
+  class: login_input
+
+act:
+  _ui: hidden
+  value: form_sub
